@@ -1,0 +1,32 @@
+ * {
+   -webkit-font-smoothing: antialiased;
+ }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #676858;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-logo {
+  margin-top: 20px;
+}
+
+.title-super {
+  font-size: 60px;
+}
+
+.title-separator {
+  background-color: #BCBBBB;
+  height: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
