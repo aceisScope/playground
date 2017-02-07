@@ -1,0 +1,8 @@
+
+@media screen and (max-width: 550px) {
+  .scores__table .scores__city {
+    position: absolute;
+    top: -9999px;
+    left: -999px;
+  }
+}

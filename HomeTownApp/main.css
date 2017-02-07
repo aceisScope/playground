@@ -250,11 +250,12 @@ main {
   font-weight: bold;
 }
 
-.scores__table td:nth-child(3) {
+.scores__table td:nth-child(4) {
   text-align: right;
 }
 
 .scores__table td:nth-child(2),
+.scores__table td:nth-child(3),
 .scores__table td:nth-child(5) {
   text-align: center;
 }
