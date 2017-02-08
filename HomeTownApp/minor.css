@@ -10,3 +10,9 @@ body {
     left: -999px;
   }
 }
+
+@media screen and (min-width: 700px) {
+  .scores__table {
+    font-size: 12px;
+  }
+}
