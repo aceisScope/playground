@@ -148,7 +148,6 @@ main {
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
-  height: 300px;
 }
 
 .hero article {
@@ -157,7 +156,6 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  height: 40%;
   width: 100%;
   color: #fff;
   padding: 1em;
@@ -173,7 +171,6 @@ main {
 .top-news {
   float: right;
   width: 100%;
-  height: 300px;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -187,7 +184,7 @@ main {
 
 .top-news__item {
   border-bottom: 1px solid #E0E0E0;
-  padding: 1.5em 0;
+  padding: 1em 0;
   line-height: 19.2px;
 }
 
