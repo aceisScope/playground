@@ -3,11 +3,60 @@ body {
   line-height: 1.2em;
 }
 
+.snippet {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.snippet__title {
+  order: 0;
+  width: 100%;
+  margin: 0 0 0.5em;
+}
+
+.snippet__thumbnail {
+  order: 1;
+  width: 30%;
+  margin: 0;
+}
+
+.snippet__thumbnail > img {
+  width: 100%;
+}
+
+.snippet__content {
+  order: 2;
+  width: 70%;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 450px) {
+  .snippet__thumbnail {
+    display: none;
+  }
+
+  .snippet__content {
+    width: 100%;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .scores__table .scores__city {
     position: absolute;
     top: -9999px;
     left: -999px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .snippet__thumbnail {
+    height: 150px;
+    margin-right: 0;
   }
 }
 

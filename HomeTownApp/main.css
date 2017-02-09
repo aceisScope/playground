@@ -320,6 +320,7 @@ main {
  */
 
 .recent-news {
+  flex-grow: 1;
   clear: both;
   padding: 1em;
 }
