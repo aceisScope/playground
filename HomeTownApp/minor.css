@@ -14,20 +14,20 @@ body {
   margin: 0 0 0.5em;
 }
 
+.snippet__thumbnail > img {
+  width: 100%;
+}
 .snippet__thumbnail {
   order: 1;
   width: 30%;
   margin: 0;
 }
 
-.snippet__thumbnail > img {
-  width: 100%;
-}
-
 .snippet__content {
   order: 2;
   width: 70%;
   margin: 0;
+  padding: 0 0 0 1em;
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
