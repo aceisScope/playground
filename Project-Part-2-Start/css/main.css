@@ -1,3 +1,12 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  display: inline-block;
+  color: black;
+  margin-right: 1em;
+}
+
 article {
   margin: 0 auto;
   max-width: 50em;
@@ -17,8 +26,19 @@ img {
   max-width: 100%;
 }
 
+footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
 .line-separator{
   height: 1px;
   background: #717171;
   border-bottom: 1px solid #313030;
+  margin-bottom: 1em;
+}
+
+div#social a {
+  margin: 0 1em 0 0;
+  line-height: : 2em;
 }
