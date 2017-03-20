@@ -26,9 +26,20 @@ img {
   max-width: 100%;
 }
 
+header {
+  margin: 0 auto;
+  width: 800px;
+}
+
 footer {
   margin: 0 auto;
   width: 800px;
+}
+
+svg#logo {
+  height: 6vw;
+  margin: 0 auto 0.5em auto;
+  width: 6vw;
 }
 
 .line-separator{
