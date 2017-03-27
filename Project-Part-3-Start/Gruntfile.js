@@ -18,16 +18,16 @@ module.exports = function(grunt) {
             width: 500,
             height: 375,
             name: 'small',
-            quality: 30,
-            gravity: 'center',
-            aspectRatio: false
+            customIn: [
+              '-gravity', 'Center', '-crop', '500x375+0+0'
+            ]
           }, {
             width: 1000,
             height: 750,
             name: 'medium',
-            gravity: 'center',
-            aspectRatio: false,
-            quality: 30
+            customIn: [
+              '-gravity', 'Center', '-crop', '500x375+0+0'
+            ]
           }, {
             width: 800,
             suffix: '_large_1x',
