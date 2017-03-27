@@ -13,9 +13,28 @@ module.exports = function(grunt) {
       dev: {
         options: {
           engine: 'im',
+          overwrite: true,
           sizes: [{
+            width: 500,
+            height: 375,
+            name: 'small',
+            quality: 30,
+            gravity: 'center',
+            aspectRatio: false
+          }, {
+            width: 1000,
+            height: 750,
+            name: 'medium',
+            gravity: 'center',
+            aspectRatio: false,
+            quality: 30
+          }, {
             width: 800,
             suffix: '_large_1x',
+            quality: 50
+          }, {
+            width: 1600,
+            suffix: '_large_2x',
             quality: 50
           }]
         },
@@ -55,6 +74,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images','resize_crop']);
 
 };

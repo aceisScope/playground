@@ -10,4 +10,4 @@ Home Town App is the project for the course [Responsive Web Design Fundamentals]
 ## Responsive Image Project
 This is the project for the course [Responsive Images](https://www.udacity.com/course/responsive-images--ud882)
 
-### Current progress: Part 1 in Responsive Image Project
+### Current progress: Part 3 in Responsive Image Project
